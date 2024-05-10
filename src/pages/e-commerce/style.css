@@ -1,0 +1,100 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 100px;
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(208, 208, 208);
+    .header-text {
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      overflow: hidden;
+      border-radius: 50%;
+      margin: 0 auto;
+      /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+      .img-src {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .contact {
+      font-size: 14px;
+      color: rgb(150, 150, 150);
+    }
+  }
+}
+
+.back-icon {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  font-size: 18px;
+  top: 0;
+  background-color: white;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.project-lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  padding-left: 15px;
+  .project-details-new {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    .details-proj {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .proj-title {
+        font-size: 17px;
+        color: rgb(45, 45, 45);
+        font-weight: 500;
+      }
+      .proj-dec {
+        color: #9b9b9b;
+      }
+    }
+    .row-data {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+    }
+    .project-img-src {
+      display: flex;
+      justify-content: center;
+      height: 25px;
+      align-items: center;
+      padding: 7px;
+      border-radius: 8px;
+      background-color: #6304b129;
+      svg {
+        color: #6304b1;
+      }
+    }
+    .arrow-icon {
+      margin-top: 10px;
+      color: #9e9e9e;
+    }
+  }
+}
